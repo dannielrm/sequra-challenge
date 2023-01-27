@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a test done for SeQura.
+It took me from 00:00 to 3:04 to finish some of the tasks given.
 
-Things you may want to cover:
+Pending:
+Queue the creation of the disbursements in sidekiq;
+API to query the disbursements;
+Tests for the above;
 
-* Ruby version
+## How to run
+- Download or copy the project
+- Run bundler
+- Run migrations and seeds
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Dependencies
+- Ruby 2.7.5
+- Rails 7.0.4
+- Postgres
+- Redis
